@@ -7,8 +7,6 @@ import lombok.NoArgsConstructor;
 import org.springframework.cloud.gcp.data.datastore.core.mapping.Entity;
 import org.springframework.cloud.gcp.data.datastore.core.mapping.Field;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.annotation.Reference;
-
 import java.time.LocalDate;
 
 @Entity(name = "goals")
